@@ -8,6 +8,7 @@ import Achievements from '@/components/Achievements';
 import Certificates from '@/components/Certificates';
 import Internships from '@/components/Internships';
 import Projects from '@/components/Projects';
+import Contact from '@/components/Contact';
 
 interface HomeClientProps {
     imageUrls: string[];
@@ -26,6 +27,7 @@ export default function HomeClient({ imageUrls }: HomeClientProps) {
             <Certificates />
             <Internships />
             <Projects />
+            <Contact />
 
             <footer className="py-12 text-center text-white/30 text-sm border-t border-white/5">
                 <p>&copy; {new Date().getFullYear()} Souharda Mandal. All rights reserved.</p>
