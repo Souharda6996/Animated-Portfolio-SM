@@ -1,18 +1,18 @@
 'use client';
 
 import { motion } from 'framer-motion';
-import { ArrowUpRight, ShoppingBag, Brain, Globe, Search } from 'lucide-react';
+import { ArrowUpRight, ShoppingBag, Car, Globe, Search, Dna } from 'lucide-react';
 
 const projects = [
     {
         id: 1,
-        title: "SIH – 1 Bit Brains",
-        category: "Smart India Hackathon",
-        description: "Smart India Hackathon project built collaboratively – innovative solution developed under the national hackathon challenge.",
-        tags: ["Hackathon", "Team Project", "Innovation"],
-        url: "https://github.com/heytanix/SIH-1-Bit-Brains",
+        title: "IndiaRoadSim",
+        category: "Traffic Simulation",
+        description: "A high-fidelity digital twin for Indian road networks featuring advanced agent-based traffic engines and live dashboards.",
+        tags: ["Next.js", "FastAPI", "Python", "Leaflet"],
+        url: "https://github.com/Souharda6996/IndiaRoadSim",
         gradient: "from-orange-500 via-rose-500 to-pink-600",
-        icon: Brain,
+        icon: Car,
     },
     {
         id: 2,
@@ -36,12 +36,22 @@ const projects = [
     },
     {
         id: 4,
+        title: "Github-Portfolio-Manager",
+        category: "AI Analytics",
+        description: "A high-fidelity GitHub profile analyzer that sequences technical DNA, extracts AI-driven archetype insights, and visualizes developer trajectories.",
+        tags: ["Next.js", "TanStack Query", "Zustand", "GitHub API"],
+        url: "https://github.com/Souharda6996/Github-Portfolio-Manager",
+        gradient: "from-emerald-500 via-teal-500 to-cyan-600",
+        icon: Dna,
+    },
+    {
+        id: 5,
         title: "Research Agent",
         category: "Agentic AI System",
         description: "An AI-powered research assistant with multi-agent architecture, knowledge graph construction, literature review, and workflow orchestration.",
         tags: ["Python", "Multi-Agent", "Knowledge Graph", "AI"],
         url: "https://github.com/axls23/research_agent",
-        gradient: "from-emerald-500 via-teal-500 to-cyan-600",
+        gradient: "from-blue-600 via-indigo-600 to-violet-700",
         icon: Search,
     },
 ];
